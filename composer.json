@@ -3,11 +3,13 @@
     "description": "Benelux zipcodes",
     "type": "library",
     "require": {
+        "php": "^7.3"
     },
     "require-dev": {
         "league/climate": "^3.7",
         "symfony/var-dumper": "^5.2",
-        "guzzlehttp/guzzle": "^7.2"
+        "guzzlehttp/guzzle": "^7.2",
+        "phpunit/phpunit": "^9.5"
     },
     "authors": [
         {

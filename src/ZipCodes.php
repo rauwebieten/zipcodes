@@ -4,8 +4,9 @@ namespace RauweBieten\ZipCodes;
 
 class ZipCodes
 {
-    public static function getData($countryCode) {
-        $filePath =  __DIR__ . '/data/' . $countryCode . '.php';
+    public static function getData($countryCode): array
+    {
+        $filePath = __DIR__ . '/data/' . $countryCode . '.php';
         if (file_exists($filePath)) {
             /** @noinspection PhpIncludeInspection */
             return include $filePath;
