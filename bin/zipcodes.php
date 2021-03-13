@@ -35,7 +35,7 @@ $client->request('GET', $downloadUrl, ['sink' => $fileHandle]);
 
 // extract ZIP file
 
-$climate->whisper("Extracting ZIP file...");
+$climate->whisper('Extracting ZIP file...');
 $zipFolderPath = __DIR__ . '/tmp/' . $countryCode;
 
 $zip = new \ZipArchive();
