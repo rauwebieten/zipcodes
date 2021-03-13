@@ -1,0 +1,21 @@
+{
+    "name": "rauwebieten/zipcodes",
+    "description": "Benelux zipcodes",
+    "type": "library",
+    "require": {
+    },
+    "require-dev": {
+        "league/climate": "^3.7",
+        "symfony/var-dumper": "^5.2",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "authors": [
+        {
+            "name": "Rauwe Bieten",
+            "email": "rauwe.bieten@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"RauweBieten\\ZipCodes\\": "src/"}
+    }
+}
