@@ -62,10 +62,10 @@ class ZipCodesTest extends TestCase
 
         $this->assertArrayHasKey('latitude', $element, 'Element has latitude key');
         $this->assertIsString($element['latitude'], 'Latitude should be a string');
-        $this->assertMatchesRegularExpression('/^\d+\.\d+$/', $element['latitude'], 'Latitude should be a float in a string');
+        $this->assertMatchesRegularExpression('/^-?\d+\.\d+$/', $element['latitude'], 'Latitude should be a float in a string');
 
         $this->assertArrayHasKey('longitude', $element, 'Element has longitude key');
         $this->assertIsString($element['longitude'], 'Place should be a string');
-        $this->assertMatchesRegularExpression('/^\d+\.\d+$/', $element['longitude'], 'Longitude should be a float in a string');
+        $this->assertMatchesRegularExpression('/^-?\d+\.\d+$/', $element['longitude'], 'Longitude should be a float in a string');
     }
 }
