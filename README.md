@@ -1,3 +1,5 @@
+![Travis build status](https://travis-ci.org/rauwebieten/zipcodes.svg?branch=master)
+
 # Zipcodes
 
 A collection of country zipcodes (postal codes).
