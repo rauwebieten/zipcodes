@@ -1,5 +1,6 @@
-![Travis build status](https://travis-ci.org/rauwebieten/zipcodes.svg?branch=master)
-[![Maintainability](https://api.codeclimate.com/v1/badges/49ee352019084279acdf/maintainability)](https://codeclimate.com/github/rauwebieten/zipcodes/maintainability)
+![Travis build status](https://travis-ci.org/rauwebieten/zipcodes.svg?branch=master) 
+[![Maintainability](https://api.codeclimate.com/v1/badges/49ee352019084279acdf/maintainability)](https://codeclimate.com/github/rauwebieten/zipcodes/maintainability) 
+[![StyleCI](https://github.styleci.io/repos/347468951/shield?branch=master)](https://github.styleci.io/repos/347468951?branch=master) 
 
 # Zipcodes
 
