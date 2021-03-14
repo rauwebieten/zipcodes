@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 use PHPUnit\Framework\TestCase;
 use RauweBieten\ZipCodes\ZipCodes;
@@ -52,7 +54,7 @@ class ZipCodesTest extends TestCase
         $element = $data[0];
 
         $this->assertArrayHasKey('country', $element, 'Element has country key');
-        $this->assertEquals($countryCode, $element['country'], 'Country should be ' . $countryCode);
+        $this->assertEquals($countryCode, $element['country'], 'Country should be '.$countryCode);
 
         $this->assertArrayHasKey('place', $element, 'Element has place key');
         $this->assertIsString($element['place'], 'Place should be a string');
